@@ -1,0 +1,469 @@
+ @media (max-width:980px ) {
+    .container1{
+        padding: 150px;
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    .container1 h1{
+        font-size: 3rem;
+    }
+    .container1 p{
+        font-size: 20px;
+        padding-left: 6px;
+     }
+     .container1 .btn{
+        font-size: 1.125rem;
+        margin-top: 50px;
+        margin-left: 35%;
+        padding: 10px 12px;
+ 
+    }
+    .row1,.row2,.row3{
+        width: 95%;
+    }
+    
+    .pro1 ,.pro2, .pro3, .pro4,.pro5,.pro6,.pro7,.pro8,.pro9,.pro10,.pro11,.pro12{
+        width: 20%;
+    }
+}
+@media (max-width:900px ){
+    .bs1 img{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+       position:relative;
+    }
+    .bs2 img{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+       position:relative;
+    }
+    .bs3 img{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+       position:relative;
+    }
+    .rights{
+        width: 60%;
+        padding-left: 10%;
+        font-size: 0.8em;
+    }
+    .social{
+        width: 40%;
+    }
+    .social a{
+        font-size: 1.8em;
+        padding-left: 10%;
+    }
+}
+@media (max-width:800px) {
+    nav{
+        display: flex;
+        background-color: #f4f2e6b6;
+    }
+    .logo{
+        width: 20%;
+        padding-top: 8px;
+        padding-left: 1%;
+    }
+    .logo img{
+        width: 150px;
+    }
+    nav ul{
+        padding-top: 10px;
+        margin-left: 6%;
+    }
+    .acc{ 
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+    }
+    .acc p{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #pro, #car{
+        width: 35px;
+        height: 35px;
+    }
+    #pro{
+        margin-left: 20px;
+    }
+    .container1{
+        padding: 100px;
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    .container1 h1{
+        font-size: 2.5rem;
+    }
+     .container1 .btn{
+        font-size: 1rem;
+        margin-top: 40px;
+        margin-left: 35%;
+        padding: 5px 6px;
+    }
+    .acc{ 
+        padding-top:0.7%;
+    }
+    .acc p{
+        padding-top: 3%;
+    }
+    #pro, #car{
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+    .row1 , .row2 , .row3{
+        width: 100%;
+    }
+    .pro1 ,.pro2, .pro3, .pro4,.pro5,.pro6,.pro7,.pro8,.pro9,.pro10,.pro11,.pro12{
+        width: 23%;
+    }
+    .pro1 img{
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    .pro2 img{
+        padding-top: 16%;
+        padding-bottom: 9%;
+    }
+    .pro3 img{
+        padding-top: 14%;
+        padding-bottom: 9%;
+    }
+    .pro4 img{
+        padding-top: 13%;
+        padding-bottom: 9%;
+    }
+    .pro1 h2 , .pro2 h2, .pro3 h2 , .pro4 h2, .pro5 h2,.pro6 h2,
+    .pro7 h2,.pro8 h2,.pro9 h2,.pro10 h2,.pro11 h2,.pro12 h2 {
+        padding-top: 15%;
+        padding-bottom: 5%;
+        padding-left: 4%;
+    }
+}
+
+@media (max-width:650px){
+    .logo{width:80%}
+    .acc,.links{
+        display: none;
+    } 
+    .links{
+        margin-left: 0%; width:100%;
+        background-color: #333;
+    }
+    .links ul{
+        display: block;
+        margin-left: auto;
+    }
+    nav{
+        display: block;
+        overflow: hidden;
+        transition: all ease-in .4s;
+    }
+    .links a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        transition: all ease-in-out .5s;
+      }
+    .links a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .icon{
+        position: absolute;
+        display: block;
+        color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        position: absolute;
+        right: 0; /*Very imp for stable position*/
+        top: 0; /*Very imp for stable position*/
+    }
+    .container1{
+        padding: 80px;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .container1 h1{
+        font-size: 2rem;
+    }
+    .container2 h2 , .container3 h2{
+        font-size: 2.5rem;
+    }
+    #h2-bs1,#h2-bs2,#h2-bs3{
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .fproducts{
+        display: inline-block;
+        padding-top: 50px;
+        margin-left: 20%;
+        padding-bottom: 8%;
+    }
+    .fproduct1, .fproduct2{
+        width:60%;
+        margin-bottom:5%;
+    }
+    .fproduct3{
+        width: 60%;
+    }
+    .fproduct1:hover , .fproduct2:hover , .fproduct3:hover{
+        scale: 1;
+    }
+    .bs1, .bs2, .bs3{
+        width: 100%;
+    }
+    .bs1 img , .bs2 img, .bs3 img{
+        width:60%;
+    }
+    .bs1 h2 , .bs2 h2 , .bs3 h2{
+        font-size: 3em;
+
+    }
+    .bs1 p , .bs2 p, .bs3 p{
+        width: 100%;
+        line-height:1.3;
+        font-family: var(--fnt);
+        padding-top: 0;
+        padding-left: 5%;
+    }
+    .btn-bs1,.btn-bs2,.btn-bs3{
+        margin-top: 1em;
+        padding: 8px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    .bs2{
+        margin-top: 3%;
+    }
+    .bs3{
+        margin-top: 1%;
+    }
+    .rights{
+        width: 60%;
+        padding-left: 5%;
+        font-size: 0.6em;
+    }
+    .social{
+        width: 40%;
+    }
+    .social a{
+        font-size: 1.2em;
+        padding-left: 8%;
+    }
+    .address hr{
+        width: 0%;
+        display: none;
+    }
+    .quick-links hr{
+        display: none;
+    }
+    #qck-links-h2{
+        text-decoration: underline;
+    }
+    #add-h2{
+        text-decoration: underline;
+    }
+    .quick-links{
+        margin-top: 1%;
+    }
+    .row1 , .row2, .row3{
+        margin-top: 5%;
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        gap: 1em;
+        border: none;
+    }
+    .pro1 ,.pro2, .pro3, .pro4 , .pro5,.pro6,.pro7,.pro8,.pro9,.pro10,.pro11,.pro12{
+        width: 100%;
+        border: none;
+    }
+    .pro1 img ,.pro2 img,.pro3 img,.pro4 img ,.pro5 img,.pro6 img,
+    .pro7 img,.pro8 img,.pro9 img,.pro10 img,.pro11 img,.pro12 img{
+        width:80%; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 2%;
+    }
+    .pro1 img{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .pro2 img{
+        padding-top: 12%;
+        padding-bottom: 5%;
+    }
+    .pro3 img{
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .pro4 img{
+        padding-top: 9%;
+        padding-bottom: 5%;
+    }
+    .pro9 img ,.pro10 img ,.pro11 img ,.pro12 img{
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+
+    .pro1 h2 , .pro2 h2, .pro3 h2 , .pro4 h2, .pro5 h2,.pro6 h2,
+    .pro7 h2,.pro8 h2,.pro9 h2,.pro10 h2,.pro11 h2,.pro12 h2 {
+        padding-top: 0%;
+        padding-bottom: 1%;
+        padding-left: 10%;
+        font-size: 2em;
+    }
+    .pro1 p , .pro2 p, .pro3 p , .pro4 p, .pro5 p,.pro6 p,
+    .pro7 p,.pro8 p,.pro9 p,.pro10 p,.pro11 p,.pro12 p {
+        padding-top: 2%;
+        padding-bottom:2%;
+        padding-left: 10%;
+        font-size: 2em;
+    }
+    .pro1 button, .pro2 button, .pro3 button, .pro4 button,
+    .pro5 button, .pro6 button, .pro7 button, .pro8 button,
+    .pro9 button, .pro10 button, .pro11 button, .pro12 button{
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left: 10%;
+        padding: 15px 20px;
+
+    }
+    .pro1 img:hover{
+        scale: 1.1;
+    }
+    .last hr{
+        display: none;
+    }
+    .last{
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing_pro1{
+        width: 50%;
+    }
+    .pricing_pro1 p{
+        margin-left: -5%;
+    }
+    .cart_btn{
+        width: 50%;
+        padding-bottom: 2%;
+    }
+    .cart_btn button{
+        margin-left:50%;
+        padding: 10px;
+    }
+}
+@media (max-width:535px) {
+    .container1{
+        padding: 80px;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .container1 h1{
+        font-size: 1.8rem;
+    }
+    .container1 p{
+        font-size: 15px;
+        padding-left: 6px;
+     }
+    .container1 .btn{
+        font-size: 0.8rem;
+        margin-top: 35px;
+        margin-left: 30%;
+        padding: 5px 6px;
+    }
+    .stepinstyle{display: none;}
+    #qck-links-h2, #add-h2{
+        font-size: 1.2em;
+    }
+    .address{
+        width: 60%;
+    }
+    .address p{
+        color:white;
+        font-family: var(--fnt);
+        padding: 10px;
+        padding-left: 15%;
+    }
+    .quick-links{
+        width: 40%;
+        margin-top: 2%;
+    }
+    .pro1 button, .pro2 button, .pro3 button, .pro4 button,
+    .pro5 button, .pro6 button, .pro7 button, .pro8 button,
+    .pro9 button, .pro10 button, .pro11 button, .pro12 button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 10%;
+        padding: 10px 20px;
+    }
+    .last{
+        width: 100%;
+    }
+    .pricing_pro1 p{
+        margin-left: 15%;
+    }
+    .cart_btn button{
+        margin-left:50%;
+        padding: 10px;
+    }
+}
+@media (max-width:490px){
+    .container1{
+        padding: 70px;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .container1 h1{
+        font-size: 1.5rem;
+    }
+    .container1 p{
+        font-size: 12px;
+        padding-left:6px;
+     }
+    .container1 .btn{
+        font-size: 0.8rem;
+        margin-top: 35px;
+        margin-left: 21%;
+        padding: 5px 6px;
+    }
+    .social a{
+        font-size: 1.2em;
+        padding-left: 5%;
+    }
+    .last{
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing_pro1{
+        width: 30%; 
+    }
+    .pricing_pro1 p{
+        margin-left: -5%;
+    }
+    .cart_btn{
+        width:100%;
+    }
+    .cart_btn button{
+        margin-left:50%;
+        padding: 10px;
+    }
+}
